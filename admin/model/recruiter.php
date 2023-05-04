@@ -6,9 +6,9 @@ class Database
 {
 
    // private $dsn = "sqlsrv:Server=localhost;Database=test";    // Conect with SQLServer
-    private $dsn = "mysql:host=localhost;dbname=capstone";   // Conect with MySQL
-    private $username = "root";
-    private $pass = "";
+    private $dsn = "mysql:host=us-cdbr-east-06.cleardb.net;dbname=heroku_dfdc5cf28c06aa6";   // Conect with MySQL
+    private $username = "bedb62f2f3a0f9";
+    private $pass = "222e3331";
     public $conn;
 
     public function __construct()
