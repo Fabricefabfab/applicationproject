@@ -9,7 +9,7 @@ if(isset($_POST['action']) && $_POST['action']== "view"){
     $data = $db->read();
    //  print_r($data);
     if($db->totalRowCount()>0){ 
-        $output .= '<table class="table table-striped table-sm table-bordered">
+        $output .= '<table class="table table-striped table-sm table-bordered" style="display:none;">
         <thead>
             <tr class="text-center">
                 <th>Name</th>
