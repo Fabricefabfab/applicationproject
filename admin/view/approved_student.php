@@ -213,15 +213,5 @@ $(document).ready(function() {
 
     })
 </script> 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  
-$(function() {
-    $.post("controller/offer.php", { action: "view" }, function(data) {
-        $("table").show().find("tbody").html(data);
-    });
-});
-</script>
-
 </body>
 </html>
