@@ -15,9 +15,9 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 class Database
 {
     // Update the following with your database credentials
-    public $dsn = "mysql:host=us-cdbr-east-06.cleardb.net;dbname=heroku_dfdc5cf28c06aa6";
-    public $username = "bedb62f2f3a0f9";
-    public $password = "222e3331";
+    private $dsn = "mysql:host=us-cdbr-east-06.cleardb.net;dbname=heroku_dfdc5cf28c06aa6";
+    private $username = "bedb62f2f3a0f9";
+    private $password = "222e3331";
     public $conn;
 
     public function __construct()
